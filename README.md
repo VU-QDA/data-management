@@ -9,7 +9,7 @@ The goal of this document is to help making choices regarding data processing fo
 We identify different project artifacts, artifact phases and external requirements and assess
 different storage solutions based on this.
 
-## Project Artifacts
+# Project Artifacts
 Most QDA project consist of two types of artifacts:
  1. Data.  
     This can be both `raw` data, i.e. in the form it was collected in, as processed data.
@@ -18,7 +18,7 @@ Most QDA project consist of two types of artifacts:
     to process data (generate insights, train models, etc.) or independently from any data (e.g. a
     package).
 
-## Artifact Phases
+# Artifact Phases
 Typically, a research project transitions through various phases.
 ![artifact
 phases](https://raw.githubusercontent.com/VU-QDA/data-management/main/artifacts/research-cycle/research-cycle.png?token=AAW5FRAUA47LQ4WKVKWHVHS7VFVJO)
@@ -64,14 +64,14 @@ need to store it for 10 (?) years. You will need to work with the data owner to 
 be made possible. VU offers a privacy-sensitive storage solution called DarkStor (€3.5 / GB /
 Year, see VUnet).
 
-## External Requirements
+# External Requirements
 External requirements are demands from data owners. Typically, medical data comes with strict
 controls on storage and processing. These requirements are in a sense `external'.
 
 Since these requirements are not known and differ per project (partner), we only provide best
 practices here.
 
-### Chinese Wall Best Practices
+## Chinese Wall Best Practices
 Many privacy-sensitive data may not leave the systems they are kept in, e.g. they should be kept
 within a technical `chinese wall'. This setup requires logging into some environment managed by
 the data owner (e.g. a hospital).
