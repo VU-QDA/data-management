@@ -1,3 +1,6 @@
+TLDR;
+* Use GitHub and Zenodo as much as possible
+
 # About
 This repository contains best practices, pointers and tips for data management within the QDA
 group.
@@ -80,7 +83,6 @@ When working within a chinese wall, the following may help:
 * make sure to capture all data processing in scripts (end-to-end), so that  
   you can always reconstruct your data
 
-
 # TODO
 * Group-specific storage data.ssh.vu?
   * Should contact cs administrator (Kees?)
@@ -89,5 +91,3 @@ When working within a chinese wall, the following may help:
   * €3.5 / GB / Year
   * Contact VU library (Jolien Scholten)
 * Check data retention requirements
-* Include figure research phases
-
