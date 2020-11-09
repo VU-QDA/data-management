@@ -17,7 +17,8 @@ Most QDA project consist of two types of artifacts:
 
 ## Artifact Phases
 Typically, a research project transitions through various phases.
-
+![artifact
+phases](https://raw.githubusercontent.com/VU-QDA/data-management/main/artifacts/research-cycle/research-cycle.png?token=AAW5FRAUA47LQ4WKVKWHVHS7VFVJO)
 
 The most simple way to think of phases is during and after the project. During the project we want
 the artifact to be private, easily available and changeable. After the end of the project, we
