@@ -1,13 +1,15 @@
 TLDR;
-* Use GitHub and Zenodo as much as possible
+* Use GitHub for code, Google Drive (VU account) and Zenodo as much as possible.
+* Working with sensitive data? Liaise with the data owner for solutions. Make sure that data can
+  be stored for 10 year.
 
 # About
 This repository contains best practices, pointers and tips for data management within the QDA
 group.
 
-The goal of this document is to help making choices regarding data processing for a typical QDA project.
-We identify different project artifacts, artifact phases and external requirements and assess
-different storage solutions based on this.
+The goal of this document is to help making choices regarding data processing for a typical QDA
+project. We identify different project artifacts, artifact phases and external requirements and
+assess different storage solutions based on this.
 
 # Project Artifacts
 Most QDA project consist of two types of artifacts:
@@ -25,9 +27,10 @@ phases](https://raw.githubusercontent.com/VU-QDA/data-management/main/artifacts/
 
 The most simple way to think of phases is during and after the project. During the project we want
 the artifact to be private, easily available and changeable. After the end of the project, we
-typically want the artifacts to remain available, yet not changeable. In many cases, we will want
-to make artifacts publicly available. Although projects rarely last long, artifacts may be
-repurposed and can cycle in and out of these phases.
+typically want the artifacts to remain available.
+
+In many cases, we will want to make artifacts publicly available. Although projects rarely last
+long, artifacts may be repurposed and can cycle in and out of these phases.
 
 For data management purposes, the most interesting phases are:
  * the active phase: the version is not final. We want easy access for processing and updating the
@@ -47,22 +50,29 @@ GitHub. In this case
 be used.
 
 ## Final Artifacts
-Research artifacts need to be stored so that they can be investigated on suspicion of fraud. But
-publishing your research artifacts may have direct benefits. For example, other authors may be more
-prone to include your approach in a benchmark if you have published it.
+Research artifacts need to be stored for reproduction purposes. But publishing your research
+artifacts may have direct benefits. For example, other authors may be more prone to include your
+approach in a benchmark if you have published it. Storing data in the right way is part of good
+scholarship and part of many guidelines on scientific integrity. VSNU recommends storing data for
+at least [ten
+years](https://www.vsnu.nl/files/documenten/Nederlandse%20gedragscode%20wetenschappelijke%20integriteit%202018.pdf).
 
 You can publish your code and data using [Zenodo](https://zenodo.org/). Zenodo is an EU-backed
 project aimed at making sharing, inspecting and repurposing research data more ease. Each Zenodo
 release gets listed so that is easily findable. Additionally, it gets assigned a
 [DOI](http://www.doi.org/) and other meta-data. This allows for you (and others) to cite the resource.
  
-Code and data can also be published in a [GitHub
+Code can also be published in a [GitHub
 release](https://github.blog/2013-07-02-release-your-software/).
 
+Data can be stored on Google Drive. All VU accounts have a storage of 1TB and we have a shared
+folder with our group so that others can access your data. Make sure to share your data with a
+tenured staff member such as Mark so that is not deleted when you lose your VU account.
+
 In case you are not allowed to publish your data (see `External Requirements'), you will still
-need to store it for 10 (?) years. You will need to work with the data owner to see how this can
-be made possible. VU offers a privacy-sensitive storage solution called DarkStor (€3.5 / GB /
-Year, see VUnet).
+need to store it to ensure reproducibility. You will need to work with the data owner to see how
+this can be made possible. VU offers a privacy-sensitive storage solution called DarkStor (€3.5 /
+GB / Year, see VUnet) that may help for long-term storage.
 
 # External Requirements
 External requirements are demands from data owners. Typically, medical data comes with strict
@@ -70,6 +80,10 @@ controls on storage and processing. These requirements are in a sense `external'
 
 Since these requirements are not known and differ per project (partner), we only provide best
 practices here.
+
+In any case, make sure to make agreements on data retention (long-term storage). If data cannot
+leave the data owners' premises, they should give guarantees on retention for ten years to ensure
+reproducibility.
 
 ## Chinese Wall Best Practices
 Many privacy-sensitive data may not leave the systems they are kept in, e.g. they should be kept
@@ -84,10 +98,4 @@ When working within a chinese wall, the following may help:
   you can always reconstruct your data
 
 # TODO
-* Group-specific storage data.ssh.vu?
-  * Should contact cs administrator (Kees?)
-  * Costs unknown
-* Group-specific storage on DataVerseNL?
-  * €3.5 / GB / Year
-  * Contact VU library (Jolien Scholten)
-* Check data retention requirements
+
