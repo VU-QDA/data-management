@@ -1,5 +1,7 @@
 TLDR;
-* Use GitHub for code, Google Drive (VU account) and Zenodo as much as possible.
+* Use GitHub for code, Google Drive (VU account) [*shared
+  drive*](https://drive.google.com/drive/u/2/folders/0ABiXQV53pij4Uk9PVA) and Zenodo as much as
+  possible.
 * Working with sensitive data? Liaise with the data owner for solutions. Make sure that data can
   be stored for 10 year.
 
@@ -65,14 +67,18 @@ release gets listed so that is easily findable. Additionally, it gets assigned a
 Code can also be published in a [GitHub
 release](https://github.blog/2013-07-02-release-your-software/).
 
-Data can be stored on Google Drive. All VU accounts have a storage of 1TB and we have a shared
-folder with our group so that others can access your data. Make sure to share your data with a
-tenured staff member such as Mark so that is not deleted when you lose your VU account.
+Data can be stored on Google Drive. All VU accounts have a storage of 1TB and we have a [shared
+drive](https://drive.google.com/drive/u/2/folders/0ABiXQV53pij4Uk9PVA) with our group so that
+others can access your data. Make sure to share your data with a tenured staff member such as Mark
+so that is not deleted when you lose your VU account.
 
 In case you are not allowed to publish your data (see `External Requirements'), you will still
 need to store it to ensure reproducibility. You will need to work with the data owner to see how
-this can be made possible. VU offers a privacy-sensitive storage solution called DarkStor (€3.5 /
-GB / Year, see VUnet) that may help for long-term storage.
+this can be made possible. VU offers two privacy-sensitive storage solutions:
+* [Research
+  Drive](https://vunet.login.vu.nl/services/pages/practicalinformation.aspx?cid=tcm%3a165-413728-16)
+  for GDPR-data and relatively collaboration
+* DarkStor (€3.5 / GB / Year, see VUnet) for access-by-request only long-term storage.
 
 # External Requirements
 External requirements are demands from data owners. Typically, medical data comes with strict
@@ -98,4 +104,4 @@ When working within a chinese wall, the following may help:
   you can always reconstruct your data
 
 # TODO
-
+* Add template Msc. student agreement for working with sensitive data (if allowed by owner)
